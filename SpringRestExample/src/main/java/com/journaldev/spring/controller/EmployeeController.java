@@ -34,7 +34,7 @@ public class EmployeeController {
 		logger.info("Start getDummyEmployee");
 		Employee emp = new Employee();
 		emp.setId(9999);
-		emp.setName("Dummy");
+		emp.setName("Dummy test");
 		emp.setCreatedDate(new Date());
 		empData.put(9999, emp);
 		return emp;
